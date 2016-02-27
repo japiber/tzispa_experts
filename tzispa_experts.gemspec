@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = '~> 2.0'
   s.required_ruby_version     = '~> 2.0'
 
-  s.add_dependency 'mini_magick',           '~> 4.3'
+  s.add_dependency 'mini_magick',           '~> 4.4'
 
   s.files         = Dir.glob("{lib}/**/*") + %w(README.md CHANGELOG.md)
   s.require_paths = ['lib']
