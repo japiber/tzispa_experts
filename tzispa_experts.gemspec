@@ -7,13 +7,12 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Juan Antonio Piñero']
   s.email       = ['japinero@area-integral.com']
-  s.homepage    = 'https://www.area-integral.com'
+  s.homepage    = 'https://github.com/japiber/tzispa_experts'
   s.summary     = 'Specialized misc modules for Tzispa framework'
   s.description = 'Experts for Tzispa'
   s.licenses    = ['MIT']
 
-  s.required_rubygems_version = '~> 2.0'
-  s.required_ruby_version     = '~> 2.0'
+  s.required_ruby_version     = '~> 2.3'
 
   s.add_dependency 'mini_magick',        '~> 4.4'
   s.add_dependency 'reverse_markdown',   '~> 1.0'
